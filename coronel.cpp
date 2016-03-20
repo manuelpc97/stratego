@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-coronel::coronel(int num):ficha(num){
+coronel::coronel(int num , int ran):ficha(num, ran){
 	
 }
 

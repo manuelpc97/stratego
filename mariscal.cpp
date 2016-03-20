@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-mariscal::mariscal(int num):ficha(num){
+mariscal::mariscal(int num, int ran):ficha(num, ran){
 	
 }
 

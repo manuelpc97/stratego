@@ -6,7 +6,7 @@ using std::string;
 
 class sargento:public ficha{
 	public:
-		sargento(int = 4);
+		sargento(int, int = 4);
 		~sargento();
 		virtual string toString()const;
 

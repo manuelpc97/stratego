@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-explorador::explorador(int num):ficha(num){
+explorador::explorador(int num, int ran):ficha(num,ran){
 	
 }
 

@@ -6,7 +6,7 @@ using std::string;
 
 class explorador:public ficha{
 	public:
-		explorador(int = 2);
+		explorador(int,int = 2);
 		~explorador();
 		virtual string toString()const;
 

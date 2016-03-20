@@ -6,7 +6,7 @@ using std::string;
 
 class general:public ficha{
 	public:
-		general(int = 9);
+		general(int, int = 9);
 		~general();
 		virtual string toString()const;
 

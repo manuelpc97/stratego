@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-espia::espia(int num):ficha(num){
+espia::espia(int num, int ran):ficha(num, ran){
 	
 }
 

@@ -6,8 +6,9 @@ using std::string;
 class ficha{
 	protected:
 		int rango;
+		int jugador;
 	public:
-		ficha(int);
+		ficha(int, int);
 		~ficha();
 		virtual string toString()const;		
 };

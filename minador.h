@@ -6,7 +6,7 @@ using std::string;
 
 class minador:public ficha{
 	public:
-		minador(int = 3);
+		minador(int,int = 3);
 		~minador();
 		virtual string toString()const;
 

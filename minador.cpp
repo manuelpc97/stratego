@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-minador::minador(int num):ficha(num){
+minador::minador(int num, int ran):ficha(num,ran){
 	
 }
 

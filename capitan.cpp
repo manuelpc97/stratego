@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-capitan::capitan(int num):ficha(num){
+capitan::capitan(int num, int ran):ficha(num, ran){
 	
 }
 

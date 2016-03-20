@@ -6,7 +6,7 @@ using std::string;
 
 class bandera:public ficha{
 	public:
-		bandera(int = 0);
+		bandera(int, int = 0);
 		~bandera();
 		virtual string toString()const;
 

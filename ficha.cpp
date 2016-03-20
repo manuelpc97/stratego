@@ -5,7 +5,7 @@
 using std::string;
 using std::stringstream;
 
-ficha::ficha(int n):rango(n){
+ficha::ficha(int n, int j):rango(n), jugador(j){
 
 }
 		

@@ -6,7 +6,7 @@ using std::string;
 
 class teniente:public ficha{
 	public:
-		teniente(int = 5);
+		teniente(int,int = 5);
 		~teniente();
 		virtual string toString()const;
 

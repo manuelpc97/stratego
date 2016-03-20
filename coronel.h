@@ -6,7 +6,7 @@ using std::string;
 
 class coronel:public ficha{
 	public:
-		coronel(int = 8);
+		coronel(int, int = 8);
 		~coronel();
 		virtual string toString()const;
 

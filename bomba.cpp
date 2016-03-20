@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-bomba::bomba(int num):ficha(num){
+bomba::bomba(int num, int ran):ficha(num, ran){
 	
 }
 

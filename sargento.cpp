@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-sargento::sargento(int num):ficha(num){
+sargento::sargento(int num, int ran):ficha(num, ran){
 	
 }
 

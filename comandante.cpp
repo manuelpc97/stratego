@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-comandante::comandante(int num):ficha(num){
+comandante::comandante(int num, int ran):ficha(num, ran){
 	
 }
 

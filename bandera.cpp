@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-bandera::bandera(int num):ficha(num){
+bandera::bandera(int num, int ran):ficha(num, ran){
 	
 }
 

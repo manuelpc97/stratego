@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-general::general(int num):ficha(num){
+general::general(int num, int ran):ficha(num, ran){
 	
 }
 

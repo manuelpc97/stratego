@@ -6,7 +6,7 @@ using std::string;
 
 class espia:public ficha{
 	public:
-		espia(int = 1);
+		espia(int, int = 1);
 		~espia();
 		virtual string toString()const;
 
