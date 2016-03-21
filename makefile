@@ -20,7 +20,7 @@ sargento.o: ficha.h sargento.h sargento.cpp
 	g++ -c sargento.cpp
 minador.o: ficha.h minador.h minador.cpp
 	g++ -c minador.cpp
-exploador.o: ficha.h explorador.h explorador.cpp
+explorador.o: ficha.h explorador.h explorador.cpp
 	g++ -c explorador.cpp
 espia.o: ficha.h espia.h espia.cpp
 	g++ -c espia.cpp

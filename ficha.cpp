@@ -5,7 +5,7 @@
 using std::string;
 using std::stringstream;
 
-ficha::ficha(int n, int j):rango(n), jugador(j){
+ficha::ficha(int n, int j):rango(j), jugador(n){
 
 }
 		
@@ -17,4 +17,8 @@ string ficha::toString()const{
 	stringstream ss;
 	ss << "Ficha \n";
 	return ss.str();
-}		
+}	
+
+int ficha::getRango()const{
+	return rango;
+}	

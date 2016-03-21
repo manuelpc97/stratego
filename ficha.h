@@ -8,7 +8,8 @@ class ficha{
 		int rango;
 		int jugador;
 	public:
-		ficha(int, int);
+		ficha(int = 0, int = 0);
 		~ficha();
-		virtual string toString()const;		
+		virtual string toString()const;
+		virtual int getRango()const;		
 };
