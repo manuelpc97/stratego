@@ -49,7 +49,7 @@ void initializeBoard(ficha*** board){
 
 void destroyBoard(ficha*** board){
 	for(int i = 0; i < 10; i++){
-		delete[] board;
+		delete[] board[i];
 	}
 	
 	delete[] board;
