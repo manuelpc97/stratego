@@ -19,14 +19,38 @@ using std::vector;
 using std::cout;
 using std::endl;
 
-int main(int argc, char*argv[]){
-	ficha** prin = new ficha*[2];
+ficha*** createBoard();
+void initializeBoard(ficha***);
+void destroyBoard(ficha***);
 
-	mariscal a(1);
-	bandera p(2);
-	prin[0] = &a;
-	prin[1] = &p;
-	cout << prin[0]->toString() << " " << prin[0]->getRango()<< endl;
-	cout << prin[1]->toString() << " "<< prin[1] -> getRango() << endl;
+int main(int argc, char*argv[]){
+	ficha*** board = createBoard();
+	initializeBoard(board);
+		
+	destroyBoard(board);
 	return 0;
+}
+
+ficha*** createBoard(){
+	ficha*** retorno = new ficha**[10];
+
+	for(int i = 0; i < 10; i++){
+		retorno[i] = new ficha*[10];
+	}
+}
+
+void initializeBoard(ficha*** board){
+	for(int i = 0; i < 10; i++){
+		for(int k = 0; k < 9; k++){
+			board[i][k] = NULL;
+		}
+	}
+}
+
+void destroyBoard(ficha*** board){
+	for(int i = 0; i < 10; i++){
+		delete[] board;
+	}
+	
+	delete[] board;
 }
